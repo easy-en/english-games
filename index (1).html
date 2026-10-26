@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Easy Peasy English — англійська онлайн</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf7ff;--ink:#4a1f8f;--soft:#6b4aa8;--pale:#efe6ff}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Nunito",system-ui,sans-serif;line-height:1.55;padding:36px 20px 48px}
+main{max-width:460px;margin:0 auto;text-align:center}
+.photo{width:132px;height:132px;border-radius:50%;margin:0 auto 18px;background:var(--pale);border:3px solid var(--ink);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--soft);font-weight:700}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+h1{font-size:2.4rem;line-height:1.05;margin:0 0 4px;font-weight:900}
+.squiggle{display:block;margin:0 auto 16px;width:190px;height:12px}
+.lead{font-size:1.1rem;font-weight:700;margin:0 0 12px}
+.about{color:var(--soft);margin:0 0 28px;text-align:left}
+.btn{display:block;padding:15px 20px;margin:0 0 12px;border:2px solid var(--ink);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:700;font-size:1.05rem}
+.btn small{display:block;font-weight:400;font-size:.85rem;color:var(--soft)}
+.btn.main{background:var(--ink);color:#fff}
+.btn.main small{color:#e5d8ff}
+.btn:hover{background:var(--pale)}
+.btn.main:hover{background:#3a1773}
+.btn:focus-visible{outline:3px solid #a66bff;outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <!-- ФОТО: завантажте файл photo.jpg у ту ж папку, де лежить цей файл. Код міняти не потрібно. -->
+  <div class="photo">Ваше фото<img src="photo.jpg" alt="Викладач англійської" onerror="this.remove()"></div>
+
+  <h1>Easy Peasy English</h1>
+  <svg class="squiggle" viewBox="0 0 190 12" aria-hidden="true"><path d="M3 7 Q 18 0 33 7 T 63 7 T 93 7 T 123 7 T 153 7 T 187 7" fill="none" stroke="#a66bff" stroke-width="3" stroke-linecap="round"/></svg>
+
+  <p class="lead">Викладаю англійську онлайн індивідуально та в малих групах для дітей і дорослих.</p>
+  <p class="about">Я працюю за креативною методикою: уроки тримаються на цікавості. Навіть якщо дитині здається, що англійська нудна, вона із задоволенням ходитиме на уроки й виконуватиме домашні завдання. А дорослий, у якого й так вистачає справ, прийде на урок як на відпочинок від буденності.</p>
+
+  <!-- ЗАМІНІТЬ посилання нижче на свої -->
+  <a class="btn main" href="present-simple-a2/">Безкоштовна пробна гра<small>Спробуйте одну гру без оплати</small></a>
+  <a class="btn" href="https://secure.wayforpay.com/ВСТАВТЕ">Пакет з 10 ігор — 299 грн<small>10 коротких ігор по 10–15 хвилин</small></a>
+  <a class="btn" href="https://forms.gle/ВСТАВТЕ-ВАШЕ-ПОСИЛАННЯ">Записатися на урок<small>Коротка форма, відповім особисто</small></a>
+</main>
+</body>
+</html>
